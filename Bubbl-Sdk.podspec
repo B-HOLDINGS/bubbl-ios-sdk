@@ -1,11 +1,3 @@
-#
-#  Be sure to run `pod spec lint Bubbl-Sdk.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
-
 Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -19,30 +11,15 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "Highly-accurate geofence activation & analytics SDK."
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
+ 
   spec.description  = <<-DESC
               * Bubbl is an iOS and Android SDK with a sophisticated, highly accurate, geofence activation cloud-based campaign and analytics platform.
   						* Whether 5sqm or an island, lock down your location and set the features and tools you want to use.
   						* Pick and mix from the features we already offer or we can custom develop engagement tools that are unique to your brand.                   
               DESC
 
-  spec.homepage     = "https://bubbl.tech"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See https://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  spec.license      =  {:type => 'MIT', :file => 'LICENSE.md' }
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.homepage     = "https://bubbl.tech" 
+  spec.license      =  {:type => 'MIT', :file => 'License.md' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -56,71 +33,16 @@ Pod::Spec.new do |spec|
   #
 
   spec.author             = { "Bubbl LTD" => "support@bubbl.tech" }
-  # Or just: spec.author    = "Richard Omoyele"
-  # spec.authors            = { "Richard Omoyele" => "richard@mynethub.com" }
-  # spec.social_media_url   = "https://twitter.com/Richard Omoyele"
-
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
-  # spec.platform     = :ios
+  
   spec.platform     = :ios, "15.0"
-  spec.ios.spec = 'Bubbl.xcframework'
-
-
-  #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
-  # spec.visionos.deployment_target = "1.0"
-
+  spec.ios.vendored_frameworks = 'Bubbl.xcframework'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-# WE need to replace the source with the correct URL and tag
-  spec.source       = { :http => "https://bitbucket.org/bubbl-public/bubbl-ios-sdk/src/main/", :tag => "#{spec.version}" }
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-
-  # spec.public_header_files = "Classes/**/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
-
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
+  spec.source       = { :git => "https://bitbucket.org/bubbl-public/bubbl-ios-sdk.git", :tag => "#{spec.version}" }
 
   # spec.framework  = "SomeFramework"
   spec.frameworks = 'UIKit', 'CoreLocation', 'UserNotifications'
@@ -131,14 +53,6 @@ Pod::Spec.new do |spec|
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # spec.requires_arc = true
-
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.swift_version = '5.0'
 
 end
