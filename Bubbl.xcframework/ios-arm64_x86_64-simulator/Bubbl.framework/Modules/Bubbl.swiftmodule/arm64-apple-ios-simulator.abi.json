@@ -438,6 +438,1786 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "NotificationType",
+        "printedName": "NotificationType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notification",
+            "printedName": "notification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.NotificationType.Type) -> Bubbl.NotificationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationType",
+                    "printedName": "Bubbl.NotificationType",
+                    "usr": "s:5Bubbl16NotificationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.NotificationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationType",
+                        "printedName": "Bubbl.NotificationType",
+                        "usr": "s:5Bubbl16NotificationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl16NotificationTypeO12notificationyA2CmF",
+            "mangledName": "$s5Bubbl16NotificationTypeO12notificationyA2CmF",
+            "moduleName": "Bubbl"
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.NotificationType.Type) -> Bubbl.NotificationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationType",
+                    "printedName": "Bubbl.NotificationType",
+                    "usr": "s:5Bubbl16NotificationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.NotificationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationType",
+                        "printedName": "Bubbl.NotificationType",
+                        "usr": "s:5Bubbl16NotificationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl16NotificationTypeO8locationyA2CmF",
+            "mangledName": "$s5Bubbl16NotificationTypeO8locationyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "geofence",
+            "printedName": "geofence",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.NotificationType.Type) -> Bubbl.NotificationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationType",
+                    "printedName": "Bubbl.NotificationType",
+                    "usr": "s:5Bubbl16NotificationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.NotificationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationType",
+                        "printedName": "Bubbl.NotificationType",
+                        "usr": "s:5Bubbl16NotificationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl16NotificationTypeO8geofenceyA2CmF",
+            "mangledName": "$s5Bubbl16NotificationTypeO8geofenceyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Bubbl.NotificationType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationType",
+                    "printedName": "Bubbl.NotificationType",
+                    "usr": "s:5Bubbl16NotificationTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl16NotificationTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s5Bubbl16NotificationTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl16NotificationTypeO8rawValueSivp",
+            "mangledName": "$s5Bubbl16NotificationTypeO8rawValueSivp",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl16NotificationTypeO8rawValueSivg",
+                "mangledName": "$s5Bubbl16NotificationTypeO8rawValueSivg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Bubbl16NotificationTypeO",
+        "mangledName": "$s5Bubbl16NotificationTypeO",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Bubbl"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "Bubbl"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Bubbl"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Bubbl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BubblNotificationDetails",
+        "printedName": "BubblNotificationDetails",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl0A19NotificationDetailsC2id10Foundation4UUIDVvp",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC2id10Foundation4UUIDVvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl0A19NotificationDetailsC2id10Foundation4UUIDVvg",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC2id10Foundation4UUIDVvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headline",
+            "printedName": "headline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(py)headline",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC8headlineSSvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(im)headline",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC8headlineSSvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(py)body",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC4bodySSvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(im)body",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC4bodySSvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mediaType",
+            "printedName": "mediaType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(py)mediaType",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC9mediaTypeSSSgvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(im)mediaType",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC9mediaTypeSSSgvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mediaURL",
+            "printedName": "mediaURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(py)mediaURL",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC8mediaURLSSSgvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(im)mediaURL",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC8mediaURLSSSgvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ctaLabel",
+            "printedName": "ctaLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(py)ctaLabel",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC8ctaLabelSSSgvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(im)ctaLabel",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC8ctaLabelSSSgvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ctaURL",
+            "printedName": "ctaURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(py)ctaURL",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC6ctaURLSSSgvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(im)ctaURL",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC6ctaURLSSSgvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notifID",
+            "printedName": "notifID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(py)notifID",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC7notifIDSivp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(im)notifID",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC7notifIDSivg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locationID",
+            "printedName": "locationID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(py)locationID",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC10locationIDSivp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(im)locationID",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC10locationIDSivg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BubblNotificationDetails",
+                "printedName": "Bubbl.BubblNotificationDetails",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails(im)init",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsCACycfc",
+            "moduleName": "Bubbl",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails",
+        "mangledName": "$s5Bubbl0A19NotificationDetailsC",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationManager",
+        "printedName": "NotificationManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationManager",
+                "printedName": "Bubbl.NotificationManager",
+                "usr": "c:@M@Bubbl@objc(cs)NotificationManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(cpy)shared",
+            "mangledName": "$s5Bubbl19NotificationManagerC6sharedACvpZ",
+            "moduleName": "Bubbl",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationManager",
+                    "printedName": "Bubbl.NotificationManager",
+                    "usr": "c:@M@Bubbl@objc(cs)NotificationManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)NotificationManager(cm)shared",
+                "mangledName": "$s5Bubbl19NotificationManagerC6sharedACvgZ",
+                "moduleName": "Bubbl",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latest",
+            "printedName": "latest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Bubbl.BubblNotificationDetails?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BubblNotificationDetails",
+                    "printedName": "Bubbl.BubblNotificationDetails",
+                    "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(py)latest",
+            "mangledName": "$s5Bubbl19NotificationManagerC6latestAA0aB7DetailsCSgvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Bubbl.BubblNotificationDetails?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BubblNotificationDetails",
+                        "printedName": "Bubbl.BubblNotificationDetails",
+                        "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)latest",
+                "mangledName": "$s5Bubbl19NotificationManagerC6latestAA0aB7DetailsCSgvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Bubbl.BubblNotificationDetails?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BubblNotificationDetails",
+                        "printedName": "Bubbl.BubblNotificationDetails",
+                        "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)setLatest:",
+                "mangledName": "$s5Bubbl19NotificationManagerC6latestAA0aB7DetailsCSgvs",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl19NotificationManagerC6latestAA0aB7DetailsCSgvM",
+                "mangledName": "$s5Bubbl19NotificationManagerC6latestAA0aB7DetailsCSgvM",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$latest",
+            "printedName": "$latest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Bubbl.BubblNotificationDetails>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl19NotificationManagerC7$latest7Combine9PublishedV9PublisherVyAA0aB7DetailsCSg_Gvp",
+            "mangledName": "$s5Bubbl19NotificationManagerC7$latest7Combine9PublishedV9PublisherVyAA0aB7DetailsCSg_Gvp",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Bubbl.BubblNotificationDetails>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl19NotificationManagerC7$latest7Combine9PublishedV9PublisherVyAA0aB7DetailsCSg_Gvg",
+                "mangledName": "$s5Bubbl19NotificationManagerC7$latest7Combine9PublishedV9PublisherVyAA0aB7DetailsCSg_Gvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Bubbl.BubblNotificationDetails>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl19NotificationManagerC7$latest7Combine9PublishedV9PublisherVyAA0aB7DetailsCSg_Gvs",
+                "mangledName": "$s5Bubbl19NotificationManagerC7$latest7Combine9PublishedV9PublisherVyAA0aB7DetailsCSg_Gvs",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl19NotificationManagerC7$latest7Combine9PublishedV9PublisherVyAA0aB7DetailsCSg_GvM",
+                "mangledName": "$s5Bubbl19NotificationManagerC7$latest7Combine9PublishedV9PublisherVyAA0aB7DetailsCSg_GvM",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "publisher",
+            "printedName": "publisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Bubbl.BubblNotificationDetails, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BubblNotificationDetails",
+                    "printedName": "Bubbl.BubblNotificationDetails",
+                    "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl19NotificationManagerC9publisher7Combine12AnyPublisherVyAA0aB7DetailsCs5NeverOGvp",
+            "mangledName": "$s5Bubbl19NotificationManagerC9publisher7Combine12AnyPublisherVyAA0aB7DetailsCs5NeverOGvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<Bubbl.BubblNotificationDetails, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BubblNotificationDetails",
+                        "printedName": "Bubbl.BubblNotificationDetails",
+                        "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl19NotificationManagerC9publisher7Combine12AnyPublisherVyAA0aB7DetailsCs5NeverOGvg",
+                "mangledName": "$s5Bubbl19NotificationManagerC9publisher7Combine12AnyPublisherVyAA0aB7DetailsCs5NeverOGvg",
+                "moduleName": "Bubbl",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setAsNotificationDelegate",
+            "printedName": "setAsNotificationDelegate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)setAsNotificationDelegate",
+            "mangledName": "$s5Bubbl19NotificationManagerC05setAsB8DelegateyyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearLatest",
+            "printedName": "clearLatest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)clearLatest",
+            "mangledName": "$s5Bubbl19NotificationManagerC11clearLatestyyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendTestNotification",
+            "printedName": "sendTestNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)sendTestNotification",
+            "mangledName": "$s5Bubbl19NotificationManagerC08sendTestB0yyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendTestNotificationWithPayload",
+            "printedName": "sendTestNotificationWithPayload(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)sendTestNotificationWithPayload:",
+            "mangledName": "$s5Bubbl19NotificationManagerC08sendTestB11WithPayloadyySDySSypGF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendFirebaseStyleTestNotification",
+            "printedName": "sendFirebaseStyleTestNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)sendFirebaseStyleTestNotification",
+            "mangledName": "$s5Bubbl19NotificationManagerC021sendFirebaseStyleTestB0yyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackCTAEngagement",
+            "printedName": "trackCTAEngagement(notificationID:locationID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)trackCTAEngagementWithNotificationID:locationID:",
+            "mangledName": "$s5Bubbl19NotificationManagerC18trackCTAEngagement14notificationID08locationG0ySi_SitF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackMediaView",
+            "printedName": "trackMediaView(notificationID:locationID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)trackMediaViewWithNotificationID:locationID:",
+            "mangledName": "$s5Bubbl19NotificationManagerC14trackMediaView14notificationID08locationH0ySi_SitF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reportNotification",
+            "printedName": "reportNotification(activity:locationID:curatedNotificationID:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ActivityType",
+                "printedName": "Bubbl.ActivityType",
+                "usr": "s:5Bubbl12ActivityTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationType",
+                "printedName": "Bubbl.NotificationType",
+                "usr": "s:5Bubbl16NotificationTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl19NotificationManagerC06reportB08activity10locationID07curatedbG04typeyAA12ActivityTypeO_S2iAA0bK0OtF",
+            "mangledName": "$s5Bubbl19NotificationManagerC06reportB08activity10locationID07curatedbG04typeyAA12ActivityTypeO_S2iAA0bK0OtF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "mangledName": "$s5Bubbl19NotificationManagerC04userB6Center_10didReceive21withCompletionHandlerySo06UNUserbE0C_So22UNNotificationResponseCyyctF",
+            "moduleName": "Bubbl",
+            "objc_name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:willPresent:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)NotificationManager(im)userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "mangledName": "$s5Bubbl19NotificationManagerC04userB6Center_11willPresent21withCompletionHandlerySo06UNUserbE0C_So14UNNotificationCySo0L19PresentationOptionsVctF",
+            "moduleName": "Bubbl",
+            "objc_name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Bubbl@objc(cs)NotificationManager",
+        "mangledName": "$s5Bubbl19NotificationManagerC",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1321,6 +3101,29 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "clearCooldown",
+            "printedName": "clearCooldown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BackgroundRegionMonitor(im)clearCooldown",
+            "mangledName": "$s5Bubbl23BackgroundRegionMonitorC13clearCooldownyyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -4029,38 +5832,8 @@
           },
           {
             "kind": "Function",
-            "name": "transform",
-            "printedName": "transform(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(im)transform:",
-            "mangledName": "$s5Bubbl0A6PluginC9transformyS2SF",
-            "moduleName": "Bubbl",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateAPNsToken",
-            "printedName": "updateAPNsToken(_:)",
+            "name": "updateFCMToken",
+            "printedName": "updateFCMToken(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4069,14 +5842,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(cm)updateAPNsToken:",
-            "mangledName": "$s5Bubbl0A6PluginC15updateAPNsTokenyy10Foundation4DataVFZ",
+            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(cm)updateFCMToken:",
+            "mangledName": "$s5Bubbl0A6PluginC14updateFCMTokenyySSFZ",
             "moduleName": "Bubbl",
             "static": true,
             "declAttributes": [
@@ -4186,7 +5959,10 @@
         "name": "UserNotifications",
         "printedName": "UserNotifications",
         "declKind": "Import",
-        "moduleName": "Bubbl"
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
       },
       {
         "kind": "Import",
@@ -4576,6 +6352,30 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Bubbl"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Bubbl"
       },
       {
         "kind": "Import",
@@ -5162,6 +6962,28 @@
           },
           {
             "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)ForegroundGeofenceMonitor(im)stop",
+            "mangledName": "$s5Bubbl25ForegroundGeofenceMonitorC4stopyyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "locationManager",
             "printedName": "locationManager(_:didUpdateLocations:)",
             "children": [
@@ -5201,6 +7023,29 @@
               "ObjC",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearCooldown",
+            "printedName": "clearCooldown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)ForegroundGeofenceMonitor(im)clearCooldown",
+            "mangledName": "$s5Bubbl25ForegroundGeofenceMonitorC13clearCooldownyyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -5296,6 +7141,500 @@
         "moduleName": "Bubbl",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActivityType",
+        "printedName": "ActivityType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ctaEngagement",
+            "printedName": "ctaEngagement",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.ActivityType.Type) -> Bubbl.ActivityType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityType",
+                    "printedName": "Bubbl.ActivityType",
+                    "usr": "s:5Bubbl12ActivityTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.ActivityType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "Bubbl.ActivityType",
+                        "usr": "s:5Bubbl12ActivityTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12ActivityTypeO13ctaEngagementyA2CmF",
+            "mangledName": "$s5Bubbl12ActivityTypeO13ctaEngagementyA2CmF",
+            "moduleName": "Bubbl"
+          },
+          {
+            "kind": "Var",
+            "name": "notificationSent",
+            "printedName": "notificationSent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.ActivityType.Type) -> Bubbl.ActivityType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityType",
+                    "printedName": "Bubbl.ActivityType",
+                    "usr": "s:5Bubbl12ActivityTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.ActivityType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "Bubbl.ActivityType",
+                        "usr": "s:5Bubbl12ActivityTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12ActivityTypeO16notificationSentyA2CmF",
+            "mangledName": "$s5Bubbl12ActivityTypeO16notificationSentyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notificationDelivered",
+            "printedName": "notificationDelivered",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.ActivityType.Type) -> Bubbl.ActivityType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityType",
+                    "printedName": "Bubbl.ActivityType",
+                    "usr": "s:5Bubbl12ActivityTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.ActivityType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "Bubbl.ActivityType",
+                        "usr": "s:5Bubbl12ActivityTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12ActivityTypeO21notificationDeliveredyA2CmF",
+            "mangledName": "$s5Bubbl12ActivityTypeO21notificationDeliveredyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mediaViewed",
+            "printedName": "mediaViewed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.ActivityType.Type) -> Bubbl.ActivityType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityType",
+                    "printedName": "Bubbl.ActivityType",
+                    "usr": "s:5Bubbl12ActivityTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.ActivityType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "Bubbl.ActivityType",
+                        "usr": "s:5Bubbl12ActivityTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12ActivityTypeO11mediaViewedyA2CmF",
+            "mangledName": "$s5Bubbl12ActivityTypeO11mediaViewedyA2CmF",
+            "moduleName": "Bubbl"
+          },
+          {
+            "kind": "Var",
+            "name": "location_update",
+            "printedName": "location_update",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.ActivityType.Type) -> Bubbl.ActivityType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityType",
+                    "printedName": "Bubbl.ActivityType",
+                    "usr": "s:5Bubbl12ActivityTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.ActivityType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "Bubbl.ActivityType",
+                        "usr": "s:5Bubbl12ActivityTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12ActivityTypeO15location_updateyA2CmF",
+            "mangledName": "$s5Bubbl12ActivityTypeO15location_updateyA2CmF",
+            "moduleName": "Bubbl"
+          },
+          {
+            "kind": "Var",
+            "name": "geofence_exit",
+            "printedName": "geofence_exit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.ActivityType.Type) -> Bubbl.ActivityType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityType",
+                    "printedName": "Bubbl.ActivityType",
+                    "usr": "s:5Bubbl12ActivityTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.ActivityType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "Bubbl.ActivityType",
+                        "usr": "s:5Bubbl12ActivityTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12ActivityTypeO13geofence_exityA2CmF",
+            "mangledName": "$s5Bubbl12ActivityTypeO13geofence_exityA2CmF",
+            "moduleName": "Bubbl"
+          },
+          {
+            "kind": "Var",
+            "name": "geofence_entry",
+            "printedName": "geofence_entry",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.ActivityType.Type) -> Bubbl.ActivityType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityType",
+                    "printedName": "Bubbl.ActivityType",
+                    "usr": "s:5Bubbl12ActivityTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.ActivityType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "Bubbl.ActivityType",
+                        "usr": "s:5Bubbl12ActivityTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12ActivityTypeO14geofence_entryyA2CmF",
+            "mangledName": "$s5Bubbl12ActivityTypeO14geofence_entryyA2CmF",
+            "moduleName": "Bubbl"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Bubbl.ActivityType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityType",
+                    "printedName": "Bubbl.ActivityType",
+                    "usr": "s:5Bubbl12ActivityTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl12ActivityTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s5Bubbl12ActivityTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl12ActivityTypeO8rawValueSivp",
+            "mangledName": "$s5Bubbl12ActivityTypeO8rawValueSivp",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl12ActivityTypeO8rawValueSivg",
+                "mangledName": "$s5Bubbl12ActivityTypeO8rawValueSivg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Bubbl.ActivityType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityType",
+                    "printedName": "Bubbl.ActivityType",
+                    "usr": "s:5Bubbl12ActivityTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl12ActivityTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s5Bubbl12ActivityTypeO8allCasesSayACGvpZ",
+            "moduleName": "Bubbl",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Bubbl.ActivityType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "Bubbl.ActivityType",
+                        "usr": "s:5Bubbl12ActivityTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl12ActivityTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s5Bubbl12ActivityTypeO8allCasesSayACGvgZ",
+                "moduleName": "Bubbl",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Bubbl12ActivityTypeO",
+        "mangledName": "$s5Bubbl12ActivityTypeO",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Bubbl.ActivityType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "Bubbl.ActivityType",
+                        "usr": "s:5Bubbl12ActivityTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
         ]
       },
       {
@@ -10510,14 +12849,14 @@
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Common\/NotificationType.swift",
       "kind": "IntegerLiteral",
-      "offset": 165,
+      "offset": 172,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Common\/NotificationType.swift",
       "kind": "IntegerLiteral",
-      "offset": 219,
+      "offset": 226,
       "length": 8,
       "value": "2"
     },
@@ -10546,8 +12885,8 @@
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "IntegerLiteral",
       "offset": 2095,
-      "length": 5,
-      "value": "1000"
+      "length": 3,
+      "value": "300"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
@@ -10599,6 +12938,20 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "kind": "Dictionary",
+      "offset": 2734,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2832,
+      "length": 3,
+      "value": "900"
+    },
+    {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Notification\/NotificationEnvelope.swift",
       "kind": "Dictionary",
       "offset": 824,
@@ -10636,7 +12989,7 @@
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "Array",
-      "offset": 2816,
+      "offset": 2901,
       "length": 11,
       "value": "[\"default\"]"
     },
@@ -10662,6 +13015,90 @@
       "value": "\"com.bubbl.logger\""
     },
     {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 454,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "FloatLiteral",
+      "offset": 499,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 16,
+      "value": "\"com.bubbl.sync\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "StringLiteral",
+      "offset": 641,
+      "length": 23,
+      "value": "\"com.bubbl.reliability\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "Array",
+      "offset": 772,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "Dictionary",
+      "offset": 822,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "Array",
+      "offset": 937,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "Array",
+      "offset": 986,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1608,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1636,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1662,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1692,
+      "length": 1,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "Array",
       "offset": 2417,
@@ -10678,72 +13115,114 @@
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2717,
+      "offset": 2713,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2772,
+      "offset": 2768,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2839,
+      "offset": 2831,
       "length": 3,
       "value": "100"
     },
     {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "Dictionary",
+      "offset": 3074,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3172,
+      "length": 3,
+      "value": "900"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 8004,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 8026,
+      "length": 10,
+      "value": "\"standard\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 10003,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 10025,
+      "length": 10,
+      "value": "\"standard\""
+    },
+    {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
-      "offset": 157,
+      "offset": 164,
       "length": 16,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
-      "offset": 209,
+      "offset": 216,
       "length": 21,
       "value": "2"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
-      "offset": 240,
+      "offset": 247,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
-      "offset": 261,
-      "length": 13,
+      "offset": 268,
+      "length": 15,
       "value": "4"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
-      "offset": 284,
-      "length": 15,
+      "offset": 293,
+      "length": 13,
       "value": "5"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
-      "length": 13,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 332,
+      "offset": 316,
       "length": 14,
-      "value": "7"
+      "value": "6"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Campaign\/CampaignModels.swift",
@@ -10796,379 +13275,386 @@
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2316,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "Array",
-      "offset": 3754,
+      "offset": 5062,
       "length": 11,
       "value": "[\"default\"]"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4065,
+      "offset": 5373,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4523,
+      "offset": 5831,
       "length": 30,
       "value": "\"\/api\/device-registerd\/create\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4621,
+      "offset": 5929,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4649,
+      "offset": 5957,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4689,
+      "offset": 5997,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4726,
+      "offset": 6034,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4766,
+      "offset": 6074,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 4837,
+      "offset": 6145,
       "length": 8,
       "value": "\"ApiKey\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5274,
+      "offset": 6675,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5346,
+      "offset": 6759,
       "length": 9,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5438,
+      "offset": 6851,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5496,
+      "offset": 6909,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5554,
+      "offset": 6967,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5584,
+      "offset": 6997,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5607,
+      "offset": 7020,
       "length": 9,
       "value": "\"api_key\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5644,
+      "offset": 7057,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5702,
+      "offset": 7115,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5746,
+      "offset": 7159,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5763,
+      "offset": 7176,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5780,
+      "offset": 7193,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5799,
+      "offset": 7212,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5850,
+      "offset": 7263,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5893,
+      "offset": 7306,
       "length": 13,
       "value": "\"device_name\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5935,
+      "offset": 7348,
       "length": 14,
       "value": "\"manufacturer\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5952,
+      "offset": 7365,
       "length": 7,
       "value": "\"Apple\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 5973,
+      "offset": 7386,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6029,
+      "offset": 7442,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6085,
+      "offset": 7498,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6175,
+      "offset": 7588,
       "length": 15,
       "value": "\"segmentations\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6215,
+      "offset": 7628,
       "length": 10,
       "value": "\"bubbl_id\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6232,
+      "offset": 7645,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6249,
+      "offset": 7662,
       "length": 14,
       "value": "\"device_token\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6583,
+      "offset": 7996,
       "length": 459,
       "value": "\"┌─🔒  Registering device\n│ URL: \""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6664,
+      "offset": 8077,
       "length": 3,
       "value": "\"\n│ Headers:\n│   Content-Type: application\/json\n│   Accept: application\/json\n│   ApiKey: \""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6801,
+      "offset": 8214,
       "length": 3,
       "value": "\"\n│ Body:\n\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6873,
+      "offset": 8286,
       "length": 12,
       "value": "\"<non-utf8>\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 6886,
+      "offset": 8299,
       "length": 135,
       "value": "\"\n└────────────────────────────────────────────\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 7580,
+      "offset": 9011,
       "length": 27,
       "value": "\"HTTP request failed: \""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 7606,
+      "offset": 9037,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 7945,
+      "offset": 9376,
       "length": 448,
       "value": "\"┌─📬  HTTP \""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8000,
+      "offset": 9431,
       "length": 3,
       "value": "\"\n│ Headers:\n\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8075,
+      "offset": 9506,
       "length": 20,
       "value": "\"│   \""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8087,
+      "offset": 9518,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8094,
+      "offset": 9525,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8116,
+      "offset": 9547,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8122,
+      "offset": 9553,
       "length": 3,
       "value": "\"\n│ Raw body:\n\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8210,
+      "offset": 9641,
       "length": 10,
       "value": "\"<binary>\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8221,
+      "offset": 9652,
       "length": 135,
       "value": "\"\n└────────────────────────────────────────────\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 8419,
+      "offset": 9850,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 8425,
+      "offset": 9856,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9303,
+      "offset": 10734,
       "length": 26,
       "value": "\"Decoding error: \""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9328,
+      "offset": 10759,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 16974,
+      "offset": 18407,
       "length": 2,
       "value": "-1"
     }

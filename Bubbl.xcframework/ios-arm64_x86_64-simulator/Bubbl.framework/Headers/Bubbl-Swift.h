@@ -323,6 +323,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BackgroundRe
 @property (nonatomic, weak) id <BackgroundGeofenceDelegate> _Nullable delegate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)clearCooldown;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
 @end
@@ -341,11 +342,24 @@ SWIFT_PROTOCOL("_TtP5Bubbl25BubblNotificationDelegate_")
 - (void)bubblDidReceive:(UNNotificationResponse * _Nonnull)response;
 @end
 
-@class NSURL;
 @class NSString;
+SWIFT_CLASS("_TtC5Bubbl24BubblNotificationDetails")
+@interface BubblNotificationDetails : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull headline;
+@property (nonatomic, readonly, copy) NSString * _Nonnull body;
+@property (nonatomic, readonly, copy) NSString * _Nullable mediaType;
+@property (nonatomic, readonly, copy) NSString * _Nullable mediaURL;
+@property (nonatomic, readonly, copy) NSString * _Nullable ctaLabel;
+@property (nonatomic, readonly, copy) NSString * _Nullable ctaURL;
+@property (nonatomic, readonly) NSInteger notifID;
+@property (nonatomic, readonly) NSInteger locationID;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSURL;
 @class NSArray;
 @protocol BubblPluginDelegate;
-@class NSData;
 SWIFT_CLASS("_TtC5Bubbl11BubblPlugin")
 @interface BubblPlugin : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BubblPlugin * _Nonnull shared;)
@@ -363,8 +377,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BubblPlugin 
 /// Same properties but <code>Int</code>-typed for KVC in Obj-C
 @property (nonatomic, readonly) NSInteger locationAuthorizationStatusRaw;
 @property (nonatomic, readonly) NSInteger pushAuthorizationStatusRaw;
-- (NSString * _Nonnull)transform:(NSString * _Nonnull)text SWIFT_WARN_UNUSED_RESULT;
-+ (void)updateAPNsToken:(NSData * _Nonnull)token;
++ (void)updateFCMToken:(NSString * _Nonnull)token;
 @end
 
 SWIFT_PROTOCOL("_TtP5Bubbl19BubblPluginDelegate_")
@@ -391,7 +404,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ForegroundGe
 @property (nonatomic, weak) id <ForegroundGeofenceDelegate> _Nullable delegate;
 /// Point the CLLocationManager <em>you already have running</em> at us.
 - (void)startWith:(CLLocationManager * _Nonnull)manager;
+- (void)stop;
 - (void)locationManager:(CLLocationManager * _Nonnull)mgr didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locs;
+- (void)clearCooldown;
 @end
 
 SWIFT_CLASS("_TtC5Bubbl6Logger")
@@ -418,6 +433,24 @@ SWIFT_CLASS("_TtC5Bubbl18NotificationBridge")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)n withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))c;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completion;
+@end
+
+SWIFT_CLASS("_TtC5Bubbl19NotificationManager")
+@interface NotificationManager : NSObject <UNUserNotificationCenterDelegate>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NotificationManager * _Nonnull shared;)
++ (NotificationManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, strong) BubblNotificationDetails * _Nullable latest;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setAsNotificationDelegate;
+- (void)clearLatest;
+- (void)sendTestNotification;
+- (void)sendTestNotificationWithPayload:(NSDictionary<NSString *, id> * _Nonnull)userInfo;
+- (void)sendFirebaseStyleTestNotification;
+- (void)trackCTAEngagementWithNotificationID:(NSInteger)notificationID locationID:(NSInteger)locationID;
+- (void)trackMediaViewWithNotificationID:(NSInteger)notificationID locationID:(NSInteger)locationID;
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 @end
 
 #endif
@@ -753,6 +786,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BackgroundRe
 @property (nonatomic, weak) id <BackgroundGeofenceDelegate> _Nullable delegate;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)clearCooldown;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
 @end
@@ -771,11 +805,24 @@ SWIFT_PROTOCOL("_TtP5Bubbl25BubblNotificationDelegate_")
 - (void)bubblDidReceive:(UNNotificationResponse * _Nonnull)response;
 @end
 
-@class NSURL;
 @class NSString;
+SWIFT_CLASS("_TtC5Bubbl24BubblNotificationDetails")
+@interface BubblNotificationDetails : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull headline;
+@property (nonatomic, readonly, copy) NSString * _Nonnull body;
+@property (nonatomic, readonly, copy) NSString * _Nullable mediaType;
+@property (nonatomic, readonly, copy) NSString * _Nullable mediaURL;
+@property (nonatomic, readonly, copy) NSString * _Nullable ctaLabel;
+@property (nonatomic, readonly, copy) NSString * _Nullable ctaURL;
+@property (nonatomic, readonly) NSInteger notifID;
+@property (nonatomic, readonly) NSInteger locationID;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSURL;
 @class NSArray;
 @protocol BubblPluginDelegate;
-@class NSData;
 SWIFT_CLASS("_TtC5Bubbl11BubblPlugin")
 @interface BubblPlugin : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BubblPlugin * _Nonnull shared;)
@@ -793,8 +840,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BubblPlugin 
 /// Same properties but <code>Int</code>-typed for KVC in Obj-C
 @property (nonatomic, readonly) NSInteger locationAuthorizationStatusRaw;
 @property (nonatomic, readonly) NSInteger pushAuthorizationStatusRaw;
-- (NSString * _Nonnull)transform:(NSString * _Nonnull)text SWIFT_WARN_UNUSED_RESULT;
-+ (void)updateAPNsToken:(NSData * _Nonnull)token;
++ (void)updateFCMToken:(NSString * _Nonnull)token;
 @end
 
 SWIFT_PROTOCOL("_TtP5Bubbl19BubblPluginDelegate_")
@@ -821,7 +867,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ForegroundGe
 @property (nonatomic, weak) id <ForegroundGeofenceDelegate> _Nullable delegate;
 /// Point the CLLocationManager <em>you already have running</em> at us.
 - (void)startWith:(CLLocationManager * _Nonnull)manager;
+- (void)stop;
 - (void)locationManager:(CLLocationManager * _Nonnull)mgr didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locs;
+- (void)clearCooldown;
 @end
 
 SWIFT_CLASS("_TtC5Bubbl6Logger")
@@ -848,6 +896,24 @@ SWIFT_CLASS("_TtC5Bubbl18NotificationBridge")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)n withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))c;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completion;
+@end
+
+SWIFT_CLASS("_TtC5Bubbl19NotificationManager")
+@interface NotificationManager : NSObject <UNUserNotificationCenterDelegate>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NotificationManager * _Nonnull shared;)
++ (NotificationManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, strong) BubblNotificationDetails * _Nullable latest;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setAsNotificationDelegate;
+- (void)clearLatest;
+- (void)sendTestNotification;
+- (void)sendTestNotificationWithPayload:(NSDictionary<NSString *, id> * _Nonnull)userInfo;
+- (void)sendFirebaseStyleTestNotification;
+- (void)trackCTAEngagementWithNotificationID:(NSInteger)notificationID locationID:(NSInteger)locationID;
+- (void)trackMediaViewWithNotificationID:(NSInteger)notificationID locationID:(NSInteger)locationID;
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 @end
 
 #endif
