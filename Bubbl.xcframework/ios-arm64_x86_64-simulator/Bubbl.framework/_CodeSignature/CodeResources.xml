@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Bubbl-Swift.h</key>
 		<data>
-		p45gezqOgFEGsQQ7FMPzzCFmC90=
+		LJ8jB0HD7MCObyQoBqwaCZP+6D0=
 		</data>
 		<key>Headers/Bubbl.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		e/BYeOE0HUTVnzl3goqcKLPC5Jc=
+		4vQNXNq4mF3h9/JRfU56/XIJcsg=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8dQCIa2AiIjBpEBvHTptVVdAGMk=
+		HfwACNe8ZFqlD5Czbxd/bdV8pJg=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OXJR2Y4eOY772O59azctw/mYCqQ=
+		fdaQyxhA7SQobwl4dqtp4931Rdk=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+n7tOETeHGwQOIlquEB5Pzwj9os=
+		cEHVna1umodP/VgqFMKQF8ELy+g=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OXJR2Y4eOY772O59azctw/mYCqQ=
+		fdaQyxhA7SQobwl4dqtp4931Rdk=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L0jpeAlLV8V/G03oGdYpr7D7HNw=
+		jq8+Y6pKs43/i9ddCzjwgAk1F60=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8dQCIa2AiIjBpEBvHTptVVdAGMk=
+		HfwACNe8ZFqlD5Czbxd/bdV8pJg=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9SlqmkQ8d7/AT5YeJaBkIzQZ7PA=
+		FYJdtJLlwQ680B1EQBS0eWRdC0M=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ARjakzsMDxT7vMRZVx74ElRecXA=
+		kI73yFZMsXSuwm1xfdSq8PxcyLo=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9SlqmkQ8d7/AT5YeJaBkIzQZ7PA=
+		FYJdtJLlwQ680B1EQBS0eWRdC0M=
 		</data>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zcFPeAj4S68QFttR7zdT9OAbPdo=
+		6GaSzla8LefhBuaU2pnMYbQzpwg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+PUSeGDmGwE1arQMd6xHFYN5MfiNVOzvaEh9piRO6r8=
+			N3neO+P/skPoK9ap4w+1Sr7SN1DRLneau3Uxi6PgJF8=
 			</data>
 		</dict>
 		<key>Headers/Bubbl.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ULK1DHtvuiRktP2mT5oNJkLE+mT/en/NAZkXSvT8UzQ=
+			cQSf0Pp0n1SmF9SmJqOnLwbewhEt5JjxtdU35fya0Uc=
 			</data>
 		</dict>
 		<key>Modules/Bubbl.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AaK2trhKUD/4aUD6vJ7Aiiel27ObmiCY2Y1t0fVdxos=
+			LO3RG5G5sI99UckSK6yuaBf0hhcBS8mtoAH3nMd+uA4=
 			</data>
 		</dict>
 		<key>Modules/Bubbl.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E7puAfm37vREu3X7wnCwWzeMwRnWBdl7c0+fBrnGSNM=
+			+tSg7QJ0kK7x1Fdzu+oGFSzhYyh1FWCirkwd7E5SqQM=
 			</data>
 		</dict>
 		<key>Modules/Bubbl.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AaK2trhKUD/4aUD6vJ7Aiiel27ObmiCY2Y1t0fVdxos=
+			LO3RG5G5sI99UckSK6yuaBf0hhcBS8mtoAH3nMd+uA4=
 			</data>
 		</dict>
 		<key>Modules/Bubbl.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			03d4WaexPQTRtSUpSlJroh96A7JJut+BCiaW2Hn0dIM=
+			0lUetXOR42pdMb+NoEDB44yzvj6gC4PD7qC9YTRzhpY=
 			</data>
 		</dict>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ULK1DHtvuiRktP2mT5oNJkLE+mT/en/NAZkXSvT8UzQ=
+			cQSf0Pp0n1SmF9SmJqOnLwbewhEt5JjxtdU35fya0Uc=
 			</data>
 		</dict>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UlMw3sbzvD9fVcLpon1sxYyIgU6JGdjnDShDqQlFPMk=
+			1UUjhy9oMHQESUTASVLBdP2eXfUUJ8GptgJNHtgaRek=
 			</data>
 		</dict>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mmmv13/9fwB75TSYo6/rXLQ2Iu/FRsKHu/cdLRDS6B8=
+			/k8dy64echjyKPp4t1+Sh4ZqG7F369HL5BGrutdjoZY=
 			</data>
 		</dict>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UlMw3sbzvD9fVcLpon1sxYyIgU6JGdjnDShDqQlFPMk=
+			1UUjhy9oMHQESUTASVLBdP2eXfUUJ8GptgJNHtgaRek=
 			</data>
 		</dict>
 		<key>Modules/Bubbl.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wodEZB1wtl/9eu0BhitJv3Hh3OY6hjMBqhvmZkFHKJI=
+			56uuIsQ3WAuQcEIHmsDMGnDlprKTgMFXSYFs9ZpnBdg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
