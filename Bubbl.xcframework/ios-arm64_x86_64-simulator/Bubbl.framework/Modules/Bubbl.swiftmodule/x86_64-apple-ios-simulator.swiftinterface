@@ -92,6 +92,7 @@ public enum NotificationType : Swift.Int {
   @objc final public var currentPolygons: [MapKit.MKPolygon] {
     @objc get
   }
+  final public func refetchGeofence()
   @objc deinit
 }
 extension Bubbl.GeofenceService {
@@ -206,6 +207,25 @@ public struct Config {
   #if compiler(>=5.3) && $NonescapableTypes
   @objc(updateSegments:completion:) final public func updateSegmentsObjC(segmentations: Foundation.NSArray, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
   #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func fetchConfiguration(forceRefresh: Swift.Bool = false, completion: ((Swift.Result<Bubbl.BubblConfiguration, any Swift.Error>) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(fetchConfiguration:completion:) final public func fetchConfigurationObjC(forceRefresh: Swift.Bool, completion: ((Bubbl.BubblConfiguration?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func getCurrentConfiguration() -> Bubbl.BubblConfiguration?
+  #endif
+  @objc final public func getPrivacyText() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func refreshPrivacyText(completion: ((Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)? = nil)
+  #endif
+  @objc final public func getPrivacyTextObjC() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(refreshPrivacyText:) final public func refreshPrivacyTextObjC(completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  @objc final public func refetchGeofence()
+  @objc final public func refetchGeofenceObjC()
   @objc final public func requestLocationWhenInUse()
   @objc final public func requestLocationAlways()
   @objc final public func requestPushPermission()
@@ -265,6 +285,19 @@ public struct Config {
   @objc final public func stop()
   @objc final public func locationManager(_ mgr: CoreLocation.CLLocationManager, didUpdateLocations locs: [_LocationEssentials.CLLocation])
   @objc final public func clearCooldown()
+  @objc deinit
+}
+@objc @objcMembers public class BubblConfiguration : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let notificationsCount: Swift.Int
+  @objc final public let daysCount: Swift.Int
+  @objc final public let batteryCount: Swift.Int
+  @objc final public let privacyText: Swift.String
+  @objc public static let `default`: Bubbl.BubblConfiguration
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(notificationsCount: Swift.Int?, daysCount: Swift.Int?, batteryCount: Swift.Int?, privacyText: Swift.String?)
+  #endif
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 public enum ActivityType : Swift.Int, Swift.CaseIterable {

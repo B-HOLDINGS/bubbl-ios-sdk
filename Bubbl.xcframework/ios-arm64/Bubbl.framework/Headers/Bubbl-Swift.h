@@ -328,6 +328,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BackgroundRe
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
 @end
 
+@class NSString;
+/// Configuration data received from /get-config endpoint
+SWIFT_CLASS("_TtC5Bubbl18BubblConfiguration")
+@interface BubblConfiguration : NSObject
+@property (nonatomic, readonly) NSInteger notificationsCount;
+@property (nonatomic, readonly) NSInteger daysCount;
+@property (nonatomic, readonly) NSInteger batteryCount;
+@property (nonatomic, readonly, copy) NSString * _Nonnull privacyText;
+/// Default values when configuration is nil or failed
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong, getter=default) BubblConfiguration * _Nonnull default_;)
++ (BubblConfiguration * _Nonnull)default SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 typedef SWIFT_ENUM(NSInteger, BubblEnvironment, open) {
   BubblEnvironmentDevelopment = 0,
   BubblEnvironmentStaging = 1,
@@ -349,7 +364,6 @@ SWIFT_CLASS("_TtC5Bubbl24BubblNotificationDetails")
 @end
 
 @class NSURL;
-@class NSString;
 @class NSArray;
 @protocol BubblPluginDelegate;
 @class NSData;
@@ -368,6 +382,50 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BubblPlugin 
 /// \param completion Optional completion block with success flag and error
 ///
 - (void)updateSegments:(NSArray * _Nonnull)segmentations completion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
+/// Objective-C compatible method to fetch device configuration.
+/// \param forceRefresh If true, ignores cached config and fetches from network
+///
+/// \param completion Completion block with configuration object or error
+///
+- (void)fetchConfiguration:(BOOL)forceRefresh completion:(void (^ _Nullable)(BubblConfiguration * _Nullable, NSError * _Nullable))completion;
+/// Returns the currently cached configuration without making a network call.
+/// Returns nil if no configuration has been fetched yet.
+///
+/// returns:
+/// The cached BubblConfiguration or nil
+- (BubblConfiguration * _Nullable)getCurrentConfiguration SWIFT_WARN_UNUSED_RESULT;
+/// Returns the cached privacy text without making a network call.
+/// Returns empty string if no configuration has been fetched yet.
+///
+/// returns:
+/// The privacy text string
+- (NSString * _Nonnull)getPrivacyText SWIFT_WARN_UNUSED_RESULT;
+/// Objective-C compatible method to get cached privacy text.
+///
+/// returns:
+/// The privacy text string (empty if not available)
+- (NSString * _Nonnull)getPrivacyTextObjC SWIFT_WARN_UNUSED_RESULT;
+/// Objective-C compatible method to refresh privacy text from backend.
+/// \param completion Completion block with privacy text or error
+///
+- (void)refreshPrivacyText:(void (^ _Nullable)(NSString * _Nullable, NSError * _Nullable))completion;
+/// Manually trigger a geofence refresh. This is useful when:
+/// <ul>
+///   <li>
+///     The app just launched and location permission was just granted
+///   </li>
+///   <li>
+///     You want to refresh geofences without waiting for the polling interval
+///   </li>
+///   <li>
+///     The SDK was initialized before location was available
+///   </li>
+/// </ul>
+/// This method will fetch the latest geofences from the backend based on current location.
+/// No parameters needed - the SDK handles everything automatically.
+- (void)refetchGeofence;
+/// Objective-C compatible method to manually trigger a geofence refresh.
+- (void)refetchGeofenceObjC;
 - (void)requestLocationWhenInUse;
 - (void)requestLocationAlways;
 - (void)requestPushPermission;
