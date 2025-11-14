@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target x86_64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Bubbl
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 @_exported import Bubbl
 import Combine
 import CoreLocation
@@ -117,9 +117,12 @@ extension Bubbl.GeofenceService {
     get
   }
   @objc final public func clearCooldown()
+  @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [_LocationEssentials.CLLocation])
   final public func updateRegions(from cps: [Bubbl.CampaignPolygon])
   @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didEnterRegion region: CoreLocation.CLRegion)
   @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didExitRegion region: CoreLocation.CLRegion)
+  @objc final public func pauseMonitoring()
+  @objc final public func resumeMonitoring()
   @objc deinit
 }
 extension Bubbl.BackgroundRegionMonitor {
@@ -253,6 +256,8 @@ public struct Config {
   @objc final public func transform(_ text: Swift.String) -> Swift.String
   @objc public static func updateAPNsToken(_ token: Foundation.Data)
   @objc public static func updateFCMToken(_ token: Swift.String)
+  @objc final public func getNotificationStats() -> Swift.String
+  @objc final public func resetNotificationStats()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class Logger : ObjectiveC.NSObject {

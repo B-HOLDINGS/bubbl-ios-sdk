@@ -3133,6 +3133,50 @@
           },
           {
             "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[_LocationEssentials.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BackgroundRegionMonitor(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s5Bubbl23BackgroundRegionMonitorC15locationManager_18didUpdateLocationsySo010CLLocationF0C_SaySo0J0CGtF",
+            "moduleName": "Bubbl",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "updateRegions",
             "printedName": "updateRegions(from:)",
             "children": [
@@ -3234,6 +3278,51 @@
               "Final",
               "ObjC",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseMonitoring",
+            "printedName": "pauseMonitoring()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BackgroundRegionMonitor(im)pauseMonitoring",
+            "mangledName": "$s5Bubbl23BackgroundRegionMonitorC15pauseMonitoringyyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resumeMonitoring",
+            "printedName": "resumeMonitoring()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BackgroundRegionMonitor(im)resumeMonitoring",
+            "mangledName": "$s5Bubbl23BackgroundRegionMonitorC16resumeMonitoringyyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -6503,6 +6592,52 @@
               "AccessControl",
               "ObjC",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNotificationStats",
+            "printedName": "getNotificationStats()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(im)getNotificationStats",
+            "mangledName": "$s5Bubbl0A6PluginC20getNotificationStatsSSyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetNotificationStats",
+            "printedName": "resetNotificationStats()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(im)resetNotificationStats",
+            "mangledName": "$s5Bubbl0A6PluginC22resetNotificationStatsyyF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -14116,16 +14251,58 @@
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "Dictionary",
-      "offset": 2734,
+      "offset": 2730,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2832,
+      "offset": 2828,
       "length": 3,
       "value": "900"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "kind": "Dictionary",
+      "offset": 3205,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "kind": "Dictionary",
+      "offset": 3295,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3487,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "kind": "Array",
+      "offset": 3586,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "kind": "Array",
+      "offset": 3791,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3959,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Notification\/NotificationEnvelope.swift",
@@ -14157,22 +14334,64 @@
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1386,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1419,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1455,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1526,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 2296,
+      "offset": 4127,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4595,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "Array",
-      "offset": 2897,
+      "offset": 4977,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 8726,
+      "offset": 12366,
       "length": 5,
       "value": "false"
     },
@@ -14339,29 +14558,57 @@
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4039,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4102,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "Dictionary",
+      "offset": 4287,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "kind": "Dictionary",
+      "offset": 4373,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "FloatLiteral",
-      "offset": 8004,
+      "offset": 8907,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 8026,
+      "offset": 8929,
       "length": 10,
       "value": "\"standard\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "FloatLiteral",
-      "offset": 10003,
+      "offset": 11366,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 10025,
+      "offset": 11388,
       "length": 10,
       "value": "\"standard\""
     },
