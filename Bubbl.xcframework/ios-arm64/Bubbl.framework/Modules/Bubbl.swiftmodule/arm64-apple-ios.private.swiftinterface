@@ -40,7 +40,7 @@ public enum NotificationType : Swift.Int {
     get
   }
 }
-@_hasMissingDesignatedInitializers @objc final public class BubblNotificationDetails : ObjectiveC.NSObject, Swift.Identifiable {
+@objc final public class BubblNotificationDetails : ObjectiveC.NSObject, Swift.Identifiable {
   final public let id: Foundation.UUID
   final public let headline: Swift.String
   final public let body: Swift.String
@@ -50,6 +50,11 @@ public enum NotificationType : Swift.Int {
   final public let ctaURL: Swift.String?
   final public let notifID: Swift.Int
   final public let locationID: Swift.Int
+  final public let questions: [Bubbl.SurveyQuestion]?
+  final public let completionMessage: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(headline: Swift.String, body: Swift.String, mediaType: Swift.String?, mediaURL: Swift.String?, ctaLabel: Swift.String?, ctaURL: Swift.String?, notifID: Swift.Int, locationID: Swift.Int, questions: [Bubbl.SurveyQuestion]? = nil, completionMessage: Swift.String? = nil)
+  #endif
   public typealias ID = Foundation.UUID
   @objc deinit
 }
@@ -258,6 +263,18 @@ public struct Config {
   @objc public static func updateFCMToken(_ token: Swift.String)
   @objc final public func getNotificationStats() -> Swift.String
   @objc final public func resetNotificationStats()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func submitSurveyResponse(notificationId: Swift.String, locationId: Swift.String?, answers: [Bubbl.SurveyAnswer], completion: ((Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func trackSurveyEvent(notificationId: Swift.String, locationId: Swift.String?, activity: Swift.String, completion: ((Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(submitSurveyResponse:locationId:answers:completion:) final public func submitSurveyResponseObjC(notificationId: Swift.String, locationId: Swift.String?, answers: Foundation.NSArray, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(trackSurveyEvent:locationId:activity:completion:) final public func trackSurveyEventObjC(notificationId: Swift.String, locationId: Swift.String?, activity: Swift.String, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class Logger : ObjectiveC.NSObject {
@@ -386,8 +403,9 @@ public struct CampaignData : Swift.Codable {
   public struct Choice : Swift.Codable {
     public var id: Swift.Int?
     public var name: Swift.String?
+    public var position: Swift.Int?
     #if compiler(>=5.3) && $NonescapableTypes
-    public init(id: Swift.Int? = nil, name: Swift.String? = nil)
+    public init(id: Swift.Int? = nil, name: Swift.String? = nil, position: Swift.Int? = nil)
     #endif
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
@@ -426,6 +444,67 @@ extension MapKit.MKPolygon {
     get
   }
 }
+public struct SurveyResponseRequest : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(deviceRegisteredId: Swift.String, curatedNotificationId: Swift.Int, activity: Swift.String, locationId: Swift.Int?, responses: [Bubbl.SurveyAnswer]? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SurveyAnswer : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(questionId: Swift.Int, type: Swift.String, value: Swift.String, choice: [Bubbl.ChoiceSelection]? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ChoiceSelection : Swift.Codable {
+  public init(choiceId: Swift.Int)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SurveyQuestion : Swift.Codable {
+  public let id: Swift.Int
+  public let question: Swift.String
+  public let questionType: Bubbl.QuestionType?
+  public let hasChoices: Swift.Bool
+  public let position: Swift.Int
+  public let choices: [Bubbl.SurveyChoice]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.Int, question: Swift.String, questionType: Bubbl.QuestionType?, hasChoices: Swift.Bool, position: Swift.Int, choices: [Bubbl.SurveyChoice]? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SurveyChoice : Swift.Codable {
+  public let id: Swift.Int
+  public let choice: Swift.String
+  public let position: Swift.Int
+  public init(id: Swift.Int, choice: Swift.String, position: Swift.Int)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum QuestionType : Swift.String, Swift.Codable {
+  case boolean
+  case number
+  case openEnded
+  case rating
+  case slider
+  case singleChoice
+  case multipleChoice
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Bubbl.SurveyQuestion {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func toAnswer(value: Swift.String, selectedChoices: [Swift.Int]? = nil) -> Bubbl.SurveyAnswer
+  #endif
+}
 extension Bubbl.NotificationType : Swift.Equatable {}
 extension Bubbl.NotificationType : Swift.Hashable {}
 extension Bubbl.NotificationType : Swift.RawRepresentable {}
@@ -438,3 +517,6 @@ extension Bubbl.BubblEnvironment : Swift.RawRepresentable {}
 extension Bubbl.ActivityType : Swift.Equatable {}
 extension Bubbl.ActivityType : Swift.Hashable {}
 extension Bubbl.ActivityType : Swift.RawRepresentable {}
+extension Bubbl.QuestionType : Swift.Equatable {}
+extension Bubbl.QuestionType : Swift.Hashable {}
+extension Bubbl.QuestionType : Swift.RawRepresentable {}

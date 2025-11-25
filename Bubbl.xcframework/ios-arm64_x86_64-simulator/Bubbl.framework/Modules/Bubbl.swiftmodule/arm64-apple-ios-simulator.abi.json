@@ -1235,6 +1235,291 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "questions",
+            "printedName": "questions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Bubbl.SurveyQuestion]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Bubbl.SurveyQuestion]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SurveyQuestion",
+                        "printedName": "Bubbl.SurveyQuestion",
+                        "usr": "s:5Bubbl14SurveyQuestionV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl0A19NotificationDetailsC9questionsSayAA14SurveyQuestionVGSgvp",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC9questionsSayAA14SurveyQuestionVGSgvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Bubbl.SurveyQuestion]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Bubbl.SurveyQuestion]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SurveyQuestion",
+                            "printedName": "Bubbl.SurveyQuestion",
+                            "usr": "s:5Bubbl14SurveyQuestionV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl0A19NotificationDetailsC9questionsSayAA14SurveyQuestionVGSgvg",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC9questionsSayAA14SurveyQuestionVGSgvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completionMessage",
+            "printedName": "completionMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl0A19NotificationDetailsC17completionMessageSSSgvp",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC17completionMessageSSSgvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl0A19NotificationDetailsC17completionMessageSSSgvg",
+                "mangledName": "$s5Bubbl0A19NotificationDetailsC17completionMessageSSSgvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(headline:body:mediaType:mediaURL:ctaLabel:ctaURL:notifID:locationID:questions:completionMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BubblNotificationDetails",
+                "printedName": "Bubbl.BubblNotificationDetails",
+                "usr": "c:@M@Bubbl@objc(cs)BubblNotificationDetails"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Bubbl.SurveyQuestion]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Bubbl.SurveyQuestion]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SurveyQuestion",
+                        "printedName": "Bubbl.SurveyQuestion",
+                        "usr": "s:5Bubbl14SurveyQuestionV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl0A19NotificationDetailsC8headline4body9mediaType0F3URL8ctaLabel0iH07notifID08locationL09questions17completionMessageACSS_S2SSgA3NS2iSayAA14SurveyQuestionVGSgANtcfc",
+            "mangledName": "$s5Bubbl0A19NotificationDetailsC8headline4body9mediaType0F3URL8ctaLabel0iH07notifID08locationL09questions17completionMessageACSS_S2SSgA3NS2iSayAA14SurveyQuestionVGSgANtcfc",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -1272,7 +1557,6 @@
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -6638,6 +6922,388 @@
               "Final",
               "AccessControl",
               "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "submitSurveyResponse",
+            "printedName": "submitSurveyResponse(notificationId:locationId:answers:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Bubbl.SurveyAnswer]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SurveyAnswer",
+                    "printedName": "Bubbl.SurveyAnswer",
+                    "usr": "s:5Bubbl12SurveyAnswerV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<Swift.Bool, any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl0A6PluginC20submitSurveyResponse14notificationId08locationG07answers10completionySS_SSSgSayAA0D6AnswerVGys6ResultOySbs5Error_pGcSgtF",
+            "mangledName": "$s5Bubbl0A6PluginC20submitSurveyResponse14notificationId08locationG07answers10completionySS_SSSgSayAA0D6AnswerVGys6ResultOySbs5Error_pGcSgtF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackSurveyEvent",
+            "printedName": "trackSurveyEvent(notificationId:locationId:activity:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<Swift.Bool, any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl0A6PluginC16trackSurveyEvent14notificationId08locationG08activity10completionySS_SSSgSSys6ResultOySbs5Error_pGcSgtF",
+            "mangledName": "$s5Bubbl0A6PluginC16trackSurveyEvent14notificationId08locationG08activity10completionySS_SSSgSSys6ResultOySbs5Error_pGcSgtF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "submitSurveyResponseObjC",
+            "printedName": "submitSurveyResponseObjC(notificationId:locationId:answers:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSArray",
+                "printedName": "Foundation.NSArray",
+                "usr": "c:objc(cs)NSArray"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(im)submitSurveyResponse:locationId:answers:completion:",
+            "mangledName": "$s5Bubbl0A6PluginC24submitSurveyResponseObjC14notificationId08locationH07answers10completionySS_SSSgSo7NSArrayCySb_s5Error_pSgtcSgtF",
+            "moduleName": "Bubbl",
+            "objc_name": "submitSurveyResponse:locationId:answers:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackSurveyEventObjC",
+            "printedName": "trackSurveyEventObjC(notificationId:locationId:activity:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(im)trackSurveyEvent:locationId:activity:completion:",
+            "mangledName": "$s5Bubbl0A6PluginC20trackSurveyEventObjC14notificationId08locationH08activity10completionySS_SSSgSSySb_s5Error_pSgtcSgtF",
+            "moduleName": "Bubbl",
+            "objc_name": "trackSurveyEvent:locationId:activity:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -12577,9 +13243,119 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "position",
+                "printedName": "position",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5Bubbl12CampaignDataV6ChoiceV8positionSiSgvp",
+                "mangledName": "$s5Bubbl12CampaignDataV6ChoiceV8positionSiSgvp",
+                "moduleName": "Bubbl",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5Bubbl12CampaignDataV6ChoiceV8positionSiSgvg",
+                    "mangledName": "$s5Bubbl12CampaignDataV6ChoiceV8positionSiSgvg",
+                    "moduleName": "Bubbl",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5Bubbl12CampaignDataV6ChoiceV8positionSiSgvs",
+                    "mangledName": "$s5Bubbl12CampaignDataV6ChoiceV8positionSiSgvs",
+                    "moduleName": "Bubbl",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5Bubbl12CampaignDataV6ChoiceV8positionSiSgvM",
+                    "mangledName": "$s5Bubbl12CampaignDataV6ChoiceV8positionSiSgvM",
+                    "moduleName": "Bubbl",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(id:name:)",
+                "printedName": "init(id:name:position:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12616,11 +13392,26 @@
                     ],
                     "hasDefaultArg": true,
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:5Bubbl12CampaignDataV6ChoiceV2id4nameAESiSg_SSSgtcfc",
-                "mangledName": "$s5Bubbl12CampaignDataV6ChoiceV2id4nameAESiSg_SSSgtcfc",
+                "usr": "s:5Bubbl12CampaignDataV6ChoiceV2id4name8positionAESiSg_SSSgAItcfc",
+                "mangledName": "$s5Bubbl12CampaignDataV6ChoiceV2id4name8positionAESiSg_SSSgAItcfc",
                 "moduleName": "Bubbl",
                 "declAttributes": [
                   "AccessControl"
@@ -13865,6 +14656,1708 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "SurveyResponseRequest",
+        "printedName": "SurveyResponseRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(deviceRegisteredId:curatedNotificationId:activity:locationId:responses:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyResponseRequest",
+                "printedName": "Bubbl.SurveyResponseRequest",
+                "usr": "s:5Bubbl21SurveyResponseRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Bubbl.SurveyAnswer]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Bubbl.SurveyAnswer]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SurveyAnswer",
+                        "printedName": "Bubbl.SurveyAnswer",
+                        "usr": "s:5Bubbl12SurveyAnswerV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl21SurveyResponseRequestV18deviceRegisteredId019curatedNotificationG08activity08locationG09responsesACSS_SiSSSiSgSayAA0B6AnswerVGSgtcfc",
+            "mangledName": "$s5Bubbl21SurveyResponseRequestV18deviceRegisteredId019curatedNotificationG08activity08locationG09responsesACSS_SiSSSiSgSayAA0B6AnswerVGSgtcfc",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyResponseRequest",
+                "printedName": "Bubbl.SurveyResponseRequest",
+                "usr": "s:5Bubbl21SurveyResponseRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl21SurveyResponseRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5Bubbl21SurveyResponseRequestV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl21SurveyResponseRequestV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5Bubbl21SurveyResponseRequestV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Bubbl21SurveyResponseRequestV",
+        "mangledName": "$s5Bubbl21SurveyResponseRequestV",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SurveyAnswer",
+        "printedName": "SurveyAnswer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(questionId:type:value:choice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyAnswer",
+                "printedName": "Bubbl.SurveyAnswer",
+                "usr": "s:5Bubbl12SurveyAnswerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Bubbl.ChoiceSelection]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Bubbl.ChoiceSelection]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChoiceSelection",
+                        "printedName": "Bubbl.ChoiceSelection",
+                        "usr": "s:5Bubbl15ChoiceSelectionV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl12SurveyAnswerV10questionId4type5value6choiceACSi_S2SSayAA15ChoiceSelectionVGSgtcfc",
+            "mangledName": "$s5Bubbl12SurveyAnswerV10questionId4type5value6choiceACSi_S2SSayAA15ChoiceSelectionVGSgtcfc",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyAnswer",
+                "printedName": "Bubbl.SurveyAnswer",
+                "usr": "s:5Bubbl12SurveyAnswerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl12SurveyAnswerV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5Bubbl12SurveyAnswerV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl12SurveyAnswerV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5Bubbl12SurveyAnswerV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Bubbl12SurveyAnswerV",
+        "mangledName": "$s5Bubbl12SurveyAnswerV",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChoiceSelection",
+        "printedName": "ChoiceSelection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(choiceId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChoiceSelection",
+                "printedName": "Bubbl.ChoiceSelection",
+                "usr": "s:5Bubbl15ChoiceSelectionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl15ChoiceSelectionV8choiceIdACSi_tcfc",
+            "mangledName": "$s5Bubbl15ChoiceSelectionV8choiceIdACSi_tcfc",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChoiceSelection",
+                "printedName": "Bubbl.ChoiceSelection",
+                "usr": "s:5Bubbl15ChoiceSelectionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl15ChoiceSelectionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5Bubbl15ChoiceSelectionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl15ChoiceSelectionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5Bubbl15ChoiceSelectionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Bubbl15ChoiceSelectionV",
+        "mangledName": "$s5Bubbl15ChoiceSelectionV",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SurveyQuestion",
+        "printedName": "SurveyQuestion",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl14SurveyQuestionV2idSivp",
+            "mangledName": "$s5Bubbl14SurveyQuestionV2idSivp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl14SurveyQuestionV2idSivg",
+                "mangledName": "$s5Bubbl14SurveyQuestionV2idSivg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "question",
+            "printedName": "question",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl14SurveyQuestionV8questionSSvp",
+            "mangledName": "$s5Bubbl14SurveyQuestionV8questionSSvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl14SurveyQuestionV8questionSSvg",
+                "mangledName": "$s5Bubbl14SurveyQuestionV8questionSSvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "questionType",
+            "printedName": "questionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Bubbl.QuestionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl14SurveyQuestionV12questionTypeAA0cE0OSgvp",
+            "mangledName": "$s5Bubbl14SurveyQuestionV12questionTypeAA0cE0OSgvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Bubbl.QuestionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuestionType",
+                        "printedName": "Bubbl.QuestionType",
+                        "usr": "s:5Bubbl12QuestionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl14SurveyQuestionV12questionTypeAA0cE0OSgvg",
+                "mangledName": "$s5Bubbl14SurveyQuestionV12questionTypeAA0cE0OSgvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasChoices",
+            "printedName": "hasChoices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl14SurveyQuestionV10hasChoicesSbvp",
+            "mangledName": "$s5Bubbl14SurveyQuestionV10hasChoicesSbvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl14SurveyQuestionV10hasChoicesSbvg",
+                "mangledName": "$s5Bubbl14SurveyQuestionV10hasChoicesSbvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "position",
+            "printedName": "position",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl14SurveyQuestionV8positionSivp",
+            "mangledName": "$s5Bubbl14SurveyQuestionV8positionSivp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl14SurveyQuestionV8positionSivg",
+                "mangledName": "$s5Bubbl14SurveyQuestionV8positionSivg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "choices",
+            "printedName": "choices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Bubbl.SurveyChoice]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Bubbl.SurveyChoice]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SurveyChoice",
+                        "printedName": "Bubbl.SurveyChoice",
+                        "usr": "s:5Bubbl12SurveyChoiceV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl14SurveyQuestionV7choicesSayAA0B6ChoiceVGSgvp",
+            "mangledName": "$s5Bubbl14SurveyQuestionV7choicesSayAA0B6ChoiceVGSgvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Bubbl.SurveyChoice]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Bubbl.SurveyChoice]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SurveyChoice",
+                            "printedName": "Bubbl.SurveyChoice",
+                            "usr": "s:5Bubbl12SurveyChoiceV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl14SurveyQuestionV7choicesSayAA0B6ChoiceVGSgvg",
+                "mangledName": "$s5Bubbl14SurveyQuestionV7choicesSayAA0B6ChoiceVGSgvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:question:questionType:hasChoices:position:choices:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyQuestion",
+                "printedName": "Bubbl.SurveyQuestion",
+                "usr": "s:5Bubbl14SurveyQuestionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Bubbl.QuestionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Bubbl.SurveyChoice]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Bubbl.SurveyChoice]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SurveyChoice",
+                        "printedName": "Bubbl.SurveyChoice",
+                        "usr": "s:5Bubbl12SurveyChoiceV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl14SurveyQuestionV2id8question0E4Type10hasChoices8position7choicesACSi_SSAA0cF0OSgSbSiSayAA0B6ChoiceVGSgtcfc",
+            "mangledName": "$s5Bubbl14SurveyQuestionV2id8question0E4Type10hasChoices8position7choicesACSi_SSAA0cF0OSgSbSiSayAA0B6ChoiceVGSgtcfc",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyQuestion",
+                "printedName": "Bubbl.SurveyQuestion",
+                "usr": "s:5Bubbl14SurveyQuestionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl14SurveyQuestionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5Bubbl14SurveyQuestionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl14SurveyQuestionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5Bubbl14SurveyQuestionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toAnswer",
+            "printedName": "toAnswer(value:selectedChoices:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyAnswer",
+                "printedName": "Bubbl.SurveyAnswer",
+                "usr": "s:5Bubbl12SurveyAnswerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl14SurveyQuestionV8toAnswer5value15selectedChoicesAA0bE0VSS_SaySiGSgtF",
+            "mangledName": "$s5Bubbl14SurveyQuestionV8toAnswer5value15selectedChoicesAA0bE0VSS_SaySiGSgtF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Bubbl14SurveyQuestionV",
+        "mangledName": "$s5Bubbl14SurveyQuestionV",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SurveyChoice",
+        "printedName": "SurveyChoice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl12SurveyChoiceV2idSivp",
+            "mangledName": "$s5Bubbl12SurveyChoiceV2idSivp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl12SurveyChoiceV2idSivg",
+                "mangledName": "$s5Bubbl12SurveyChoiceV2idSivg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "choice",
+            "printedName": "choice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl12SurveyChoiceV6choiceSSvp",
+            "mangledName": "$s5Bubbl12SurveyChoiceV6choiceSSvp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl12SurveyChoiceV6choiceSSvg",
+                "mangledName": "$s5Bubbl12SurveyChoiceV6choiceSSvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "position",
+            "printedName": "position",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl12SurveyChoiceV8positionSivp",
+            "mangledName": "$s5Bubbl12SurveyChoiceV8positionSivp",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl12SurveyChoiceV8positionSivg",
+                "mangledName": "$s5Bubbl12SurveyChoiceV8positionSivg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:choice:position:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyChoice",
+                "printedName": "Bubbl.SurveyChoice",
+                "usr": "s:5Bubbl12SurveyChoiceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl12SurveyChoiceV2id6choice8positionACSi_SSSitcfc",
+            "mangledName": "$s5Bubbl12SurveyChoiceV2id6choice8positionACSi_SSSitcfc",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyChoice",
+                "printedName": "Bubbl.SurveyChoice",
+                "usr": "s:5Bubbl12SurveyChoiceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl12SurveyChoiceV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5Bubbl12SurveyChoiceV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl12SurveyChoiceV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5Bubbl12SurveyChoiceV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Bubbl12SurveyChoiceV",
+        "mangledName": "$s5Bubbl12SurveyChoiceV",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuestionType",
+        "printedName": "QuestionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "boolean",
+            "printedName": "boolean",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.QuestionType.Type) -> Bubbl.QuestionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.QuestionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuestionType",
+                        "printedName": "Bubbl.QuestionType",
+                        "usr": "s:5Bubbl12QuestionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12QuestionTypeO7booleanyA2CmF",
+            "mangledName": "$s5Bubbl12QuestionTypeO7booleanyA2CmF",
+            "moduleName": "Bubbl"
+          },
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.QuestionType.Type) -> Bubbl.QuestionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.QuestionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuestionType",
+                        "printedName": "Bubbl.QuestionType",
+                        "usr": "s:5Bubbl12QuestionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12QuestionTypeO6numberyA2CmF",
+            "mangledName": "$s5Bubbl12QuestionTypeO6numberyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "openEnded",
+            "printedName": "openEnded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.QuestionType.Type) -> Bubbl.QuestionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.QuestionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuestionType",
+                        "printedName": "Bubbl.QuestionType",
+                        "usr": "s:5Bubbl12QuestionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12QuestionTypeO9openEndedyA2CmF",
+            "mangledName": "$s5Bubbl12QuestionTypeO9openEndedyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rating",
+            "printedName": "rating",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.QuestionType.Type) -> Bubbl.QuestionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.QuestionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuestionType",
+                        "printedName": "Bubbl.QuestionType",
+                        "usr": "s:5Bubbl12QuestionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12QuestionTypeO6ratingyA2CmF",
+            "mangledName": "$s5Bubbl12QuestionTypeO6ratingyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "slider",
+            "printedName": "slider",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.QuestionType.Type) -> Bubbl.QuestionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.QuestionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuestionType",
+                        "printedName": "Bubbl.QuestionType",
+                        "usr": "s:5Bubbl12QuestionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12QuestionTypeO6slideryA2CmF",
+            "mangledName": "$s5Bubbl12QuestionTypeO6slideryA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "singleChoice",
+            "printedName": "singleChoice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.QuestionType.Type) -> Bubbl.QuestionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.QuestionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuestionType",
+                        "printedName": "Bubbl.QuestionType",
+                        "usr": "s:5Bubbl12QuestionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12QuestionTypeO12singleChoiceyA2CmF",
+            "mangledName": "$s5Bubbl12QuestionTypeO12singleChoiceyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "multipleChoice",
+            "printedName": "multipleChoice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.QuestionType.Type) -> Bubbl.QuestionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.QuestionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuestionType",
+                        "printedName": "Bubbl.QuestionType",
+                        "usr": "s:5Bubbl12QuestionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bubbl12QuestionTypeO14multipleChoiceyA2CmF",
+            "mangledName": "$s5Bubbl12QuestionTypeO14multipleChoiceyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Bubbl.QuestionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuestionType",
+                    "printedName": "Bubbl.QuestionType",
+                    "usr": "s:5Bubbl12QuestionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bubbl12QuestionTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s5Bubbl12QuestionTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bubbl12QuestionTypeO8rawValueSSvp",
+            "mangledName": "$s5Bubbl12QuestionTypeO8rawValueSSvp",
+            "moduleName": "Bubbl",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bubbl12QuestionTypeO8rawValueSSvg",
+                "mangledName": "$s5Bubbl12QuestionTypeO8rawValueSSvg",
+                "moduleName": "Bubbl",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Bubbl12QuestionTypeO",
+        "mangledName": "$s5Bubbl12QuestionTypeO",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bubbl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
@@ -14396,6 +16889,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Campaign\/NewCampaignModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2322,
+      "length": 15,
+      "value": "\"question_type\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Campaign\/NewCampaignModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2364,
+      "length": 13,
+      "value": "\"has_choices\""
+    },
+    {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/LocationPermissionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1312,
@@ -14688,6 +17195,104 @@
       "offset": 474,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 22,
+      "value": "\"device_registered_id\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 786,
+      "length": 25,
+      "value": "\"curated_notification_id\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 860,
+      "length": 13,
+      "value": "\"location_id\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1770,
+      "length": 13,
+      "value": "\"question_id\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2354,
+      "length": 11,
+      "value": "\"choice_id\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2876,
+      "length": 15,
+      "value": "\"question_type\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2918,
+      "length": 13,
+      "value": "\"has_choices\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3874,
+      "length": 9,
+      "value": "\"BOOLEAN\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3931,
+      "length": 8,
+      "value": "\"NUMBER\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3989,
+      "length": 12,
+      "value": "\"OPEN_ENDED\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4037,
+      "length": 8,
+      "value": "\"RATING\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4096,
+      "length": 8,
+      "value": "\"SLIDER\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4169,
+      "length": 15,
+      "value": "\"SINGLE_CHOICE\""
+    },
+    {
+      "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4229,
+      "length": 17,
+      "value": "\"MULTIPLE_CHOICE\""
     },
     {
       "filePath": "\/Users\/amansoomro\/2025\/Test\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",

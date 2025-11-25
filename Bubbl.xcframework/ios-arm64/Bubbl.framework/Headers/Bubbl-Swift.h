@@ -442,6 +442,26 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BubblPlugin 
 + (void)updateFCMToken:(NSString * _Nonnull)token;
 - (NSString * _Nonnull)getNotificationStats SWIFT_WARN_UNUSED_RESULT;
 - (void)resetNotificationStats;
+/// Objective-C compatible method to submit survey response
+/// \param notificationId The curated notification ID as string
+///
+/// \param locationId The location ID as string or nil
+///
+/// \param answers Array of SurveyAnswer objects
+///
+/// \param completion Completion block with success flag and error
+///
+- (void)submitSurveyResponse:(NSString * _Nonnull)notificationId locationId:(NSString * _Nullable)locationId answers:(NSArray * _Nonnull)answers completion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
+/// Objective-C compatible method to track survey events
+/// \param notificationId The curated notification ID as string
+///
+/// \param locationId The location ID as string or nil
+///
+/// \param activity Activity type string
+///
+/// \param completion Completion block with success flag and error
+///
+- (void)trackSurveyEvent:(NSString * _Nonnull)notificationId locationId:(NSString * _Nullable)locationId activity:(NSString * _Nonnull)activity completion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
 @end
 
 SWIFT_PROTOCOL("_TtP5Bubbl19BubblPluginDelegate_")
