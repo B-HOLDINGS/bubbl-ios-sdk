@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Bubbl-Sdk"
-  spec.version      = "2.1.0"
+  spec.version      = "2.1.1"
   spec.summary      = "Highly-accurate geofence activation & analytics SDK."
 
  
@@ -42,7 +42,7 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  spec.source       = { :git => "https://github.com/jackwrightdev/bubbl-ios-sdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:jackwrightdev/bubbl-ios-sdk.git", :tag => "#{spec.version}" }
 
   # spec.framework  = "SomeFramework"
   spec.frameworks = 'UIKit', 'CoreLocation', 'UserNotifications'
