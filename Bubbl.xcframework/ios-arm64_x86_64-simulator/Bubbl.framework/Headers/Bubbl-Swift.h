@@ -385,6 +385,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BubblPlugin 
 /// \param completion Optional completion block with success flag and error
 ///
 - (void)updateSegments:(NSArray * _Nonnull)segmentations completion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
+/// Sets a correlation identifier for this install and re-syncs device registration.
+- (void)setCorrelationId:(NSString * _Nonnull)correlationId;
+/// Returns currently stored correlation identifier (empty string if unset).
+- (NSString * _Nonnull)getCorrelationId SWIFT_WARN_UNUSED_RESULT;
+/// Clears correlation identifier and re-syncs device registration.
+- (void)clearCorrelationId;
 /// Objective-C compatible method to fetch device configuration.
 /// \param forceRefresh If true, ignores cached config and fetches from network
 ///
@@ -931,6 +937,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BubblPlugin 
 /// \param completion Optional completion block with success flag and error
 ///
 - (void)updateSegments:(NSArray * _Nonnull)segmentations completion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
+/// Sets a correlation identifier for this install and re-syncs device registration.
+- (void)setCorrelationId:(NSString * _Nonnull)correlationId;
+/// Returns currently stored correlation identifier (empty string if unset).
+- (NSString * _Nonnull)getCorrelationId SWIFT_WARN_UNUSED_RESULT;
+/// Clears correlation identifier and re-syncs device registration.
+- (void)clearCorrelationId;
 /// Objective-C compatible method to fetch device configuration.
 /// \param forceRefresh If true, ignores cached config and fetches from network
 ///

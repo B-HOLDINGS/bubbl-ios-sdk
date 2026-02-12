@@ -215,6 +215,9 @@ public struct Config {
   #if compiler(>=5.3) && $NonescapableTypes
   @objc(updateSegments:completion:) final public func updateSegmentsObjC(segmentations: Foundation.NSArray, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
   #endif
+  @objc final public func setCorrelationId(_ correlationId: Swift.String)
+  @objc final public func getCorrelationId() -> Swift.String
+  @objc final public func clearCorrelationId()
   #if compiler(>=5.3) && $NonescapableTypes
   final public func fetchConfiguration(forceRefresh: Swift.Bool = false, completion: ((Swift.Result<Bubbl.BubblConfiguration, any Swift.Error>) -> Swift.Void)? = nil)
   #endif
